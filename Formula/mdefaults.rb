@@ -1,7 +1,8 @@
+HOMEBREW_GITPULLS_VERSION='0.0.1'
+
 class Mdefaults < Formula
   desc "macOS configuration management tool like HomeBrew Bundle"
   homepage "https://github.com/fumiya-kume/mdefaults"
-  HOMEBREW_GITPULLS_VERSION='0.0.1'
   sha256 "2781d96c9efde569901c0f99d7395759397e4d20b4767685be31fe49147afa48"
   license "MIT"
   head "https://github.com/fumiya-kume/mdefaults.git", branch: "master"

@@ -10,6 +10,13 @@ class Mdefaults < Formula
   license "MIT"
   head "https://github.com/fumiya-kume/mdefaults.git", branch: "master"
 
+  bottle do
+    root_url "https://github.com/fumiya-kume/homebrew-mdefaults/releases/download/mdefaults-0.0.47"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "3229352445dfd23ddaf9c11f006447a97842151bcfe8473431ed160b276d3ec8"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "1ad2e9007b91e6aa871cc629dd78daaecc11acb2086ad851c53cdfb70079fb00"
+    sha256 cellar: :any_skip_relocation, ventura:       "2f340daad818edbfe38476750423c74bc4fe6ad79d7b6677de7422641c28c4e1"
+  end
+
   depends_on "go" => :build
 
   on_macos do

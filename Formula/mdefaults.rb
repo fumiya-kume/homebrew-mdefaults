@@ -9,7 +9,7 @@ class Mdefaults < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w -o mdefaults")
+    system "go", "build", *std_go_args(ldflags: "-s -w")
     bin.install "mdefaults"
   end
 

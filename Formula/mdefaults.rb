@@ -9,6 +9,7 @@ class Mdefaults < Formula
 
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w -o mdefaults")
+    bin.install "mdefaults"
   end
 
   test do

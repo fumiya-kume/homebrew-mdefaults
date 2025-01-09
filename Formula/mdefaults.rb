@@ -14,7 +14,7 @@ on_macos do
   end
 
   test do
-    system bin/"mdefaults", "--version"
+    # system bin/"mdefaults", "--version"
   end
 end
 

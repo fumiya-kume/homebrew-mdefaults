@@ -1,4 +1,5 @@
-HOMEBREW_GITPULLS_VERSION='0.0.1'
+HOMEBREW_GITPULLS_VERSION="0.0.1"
+HOMEBREW_GITPULLS_VERSION.freeze
 
 class Mdefaults < Formula
   desc "macOS configuration management tool like HomeBrew Bundle"

@@ -3,7 +3,7 @@ class Mdefaults < Formula
   homepage "https://github.com/fumiya-kume/mdefaults"
   url "https://github.com/fumiya-kume/mdefaults/releases/download/v0.0.47/mdefaults-amd64-v0.0.47.zip"
   sha256 "2781d96c9efde569901c0f99d7395759397e4d20b4767685be31fe49147afa48"
-  license "GPL"
+  license "MIT"
 
   depends_on "go" => :build
 

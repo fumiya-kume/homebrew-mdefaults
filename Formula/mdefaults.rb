@@ -25,9 +25,6 @@ class Mdefaults < Formula
         bin.install "mdefaults"
       end
     end
-    def install
-      bin.install "mdefaults"
-    end
   end
 
   on_linux do

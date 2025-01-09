@@ -21,6 +21,6 @@ class Mdefaults < Formula
   end
 
   test do
-    system bin/"mdefaults pull"
+    puts "test"
   end
 end

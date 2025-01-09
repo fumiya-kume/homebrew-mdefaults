@@ -16,7 +16,7 @@ class Mdefaults < Formula
 
   on_linux do
     def install
-      puts "Linux not supporting for now sorry..."
+      bin.install "mdefaults"
     end
   end
 

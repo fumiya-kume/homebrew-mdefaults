@@ -20,7 +20,7 @@ end
 
 on_linux do
   def install
-    bin.install "mdefaults"
+    
   end
 
   test do

@@ -11,7 +11,7 @@ class Mdefaults < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/fumiya-kume/mdefaults/releases/download/v0.0.47/mdefaults-arm64-v0.0.47.zip"
-      sha256 "411f29d5ed02a40a4b2a9960edca644814410fdaa54427be887b9b0ec28c1711"
+      sha256 "279d2b09486a511173912d903e4fd4ec86a3d64742fde5bb5f2a38063b7bb9d4"
 
       def install
         bin.install "mdefaults"

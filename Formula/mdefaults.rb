@@ -12,17 +12,14 @@ class Mdefaults < Formula
     def install
       bin.install "mdefaults"
     end
-  
-    test do
-      # system bin/"mdefaults", "--version"
-    end
   end
   
   on_linux do
     def install
     end
+  end
   
-    test do    
-    end
+  test do
+    # system bin/"mdefaults", "--version"
   end
 end

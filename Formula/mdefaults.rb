@@ -14,6 +14,6 @@ class Mdefaults < Formula
   end
 
   test do
-    system "false"
+    system bin/"mdefaults", "--version"
   end
 end

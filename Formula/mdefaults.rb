@@ -20,6 +20,6 @@ class Mdefaults < Formula
   end
   
   test do
-    # system bin/"mdefaults", "--version"
+    system bin/"mdefaults pull"
   end
 end

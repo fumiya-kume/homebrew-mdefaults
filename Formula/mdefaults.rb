@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-HOMEBREW_GITPULLS_VERSION="0.0.1"
+HOMEBREW_GITPULLS_VERSION="0.047"
 HOMEBREW_GITPULLS_VERSION.freeze
 
 class Mdefaults < Formula

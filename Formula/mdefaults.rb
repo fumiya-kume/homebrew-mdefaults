@@ -13,12 +13,12 @@ class Mdefaults < Formula
       bin.install "mdefaults"
     end
   end
-  
+
   on_linux do
     def install
     end
   end
-  
+
   test do
     system bin/"mdefaults pull"
   end

@@ -9,7 +9,7 @@ class Mdefaults < Formula
   depends_on "go" => :build
 
 on_macos do
-    def install
+  def install
     bin.install "mdefaults"
   end
 

@@ -11,7 +11,7 @@ class Mdefaults < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.18/mdefaults_1.0.18_darwin_amd64.tar.gz"
-      sha256 "c2fbfe17437711f4d25b01c5f1c202c211870c18e57f297198d2865375d33987"
+      sha256 "c87f79fe700d6b1e9dec3820fd99fed75a7cc80d856961672af2410329902e51"
 
       def install
         bin.install "mdefaults"
@@ -19,7 +19,7 @@ class Mdefaults < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.18/mdefaults_1.0.18_darwin_arm64.tar.gz"
-      sha256 "ec7ad96cd1fbee34835b870c785711d12f3806be1385acf35c41a55f781b73a2"
+      sha256 "15ba6cbbfafa803f87b2a7a5ed720e9d9b2980cd68ab3dd95274b1a0a945236b"
 
       def install
         bin.install "mdefaults"
@@ -31,7 +31,7 @@ class Mdefaults < Formula
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
         url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.18/mdefaults_1.0.18_linux_amd64.tar.gz"
-        sha256 "bb1e604d7affde6393928b8e67f76dc8f3011a6675dea7a5d79b3afdbaa5e843"
+        sha256 "8ec56b631e7832f2a1afa7cd6efb98b816fdb8f74b7a0d5edb5d522a949b09a7"
 
         def install
           bin.install "mdefaults"
@@ -41,7 +41,7 @@ class Mdefaults < Formula
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
         url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.18/mdefaults_1.0.18_linux_arm64.tar.gz"
-        sha256 "e167045a6fc3bf51cc90e863fef8e268c973be86dd3eacc995d42bc3106389cf"
+        sha256 "32e773e6d34b6dce49178ff53de3b8a55f2bd43f665d4db7a6103f302ac551de"
 
         def install
           bin.install "mdefaults"

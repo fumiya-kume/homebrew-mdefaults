@@ -5,21 +5,21 @@
 class Mdefaults < Formula
   desc "mdefaults is a tool to manage default values of macOS."
   homepage "https://github.com/fumiya-kume/mdefaults"
-  version "1.0.19"
+  version "1.0.21"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.19/mdefaults_1.0.19_darwin_amd64.tar.gz"
-      sha256 "42eac52c6ffa3dde86ed406b6b21c96f69f2a32692d60111cc483e0fceb82b7c"
+      url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.21/mdefaults_1.0.21_darwin_amd64.tar.gz"
+      sha256 "ca1b9fc9bf673c25320c21a404f93307dd64fa3aa401f18059239da13f8eb1cc"
 
       def install
         bin.install "mdefaults"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.19/mdefaults_1.0.19_darwin_arm64.tar.gz"
-      sha256 "bb38ff766d4c0005e508b17a046c445dbad89615d2c4bb3e14310c0fd20d3759"
+      url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.21/mdefaults_1.0.21_darwin_arm64.tar.gz"
+      sha256 "b23a5b5b26acc0b6cdf33f74c30fa06d5d0bec548c73b44b537b99858e990482"
 
       def install
         bin.install "mdefaults"
@@ -30,8 +30,8 @@ class Mdefaults < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.19/mdefaults_1.0.19_linux_amd64.tar.gz"
-        sha256 "330d0e6aeecf01160f16f35b1935eb4f27e4da142e0f828b263228dcb00cf78d"
+        url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.21/mdefaults_1.0.21_linux_amd64.tar.gz"
+        sha256 "05eca33343bf9665b43641deca6d97f8569a77f5e93ab765fa4947ab0b0ead0c"
 
         def install
           bin.install "mdefaults"
@@ -40,8 +40,8 @@ class Mdefaults < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.19/mdefaults_1.0.19_linux_arm64.tar.gz"
-        sha256 "9a560bb12f0276726abb5fee9d1faa4618c343b82ec4c688b9e72b2c6b756cdc"
+        url "https://github.com/fumiya-kume/mdefaults/releases/download/v1.0.21/mdefaults_1.0.21_linux_arm64.tar.gz"
+        sha256 "4287f610c42e7298a6c1294efcf908f24a5d6eb2e52ca64f3c98b2b36eaf44ad"
 
         def install
           bin.install "mdefaults"
